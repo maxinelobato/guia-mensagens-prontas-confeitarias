@@ -1,4 +1,4 @@
-import { Reveal } from '../components/Reveal'
+import { Reveal } from '../components/Reveal';
 
 export function Hero() {
   return (
@@ -32,23 +32,28 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={300} direction="left">
-            <h1 style={{ textShadow: '0px 0px 2px #E5D5C8' }} className="text-4xl md:text-6xl font-serif text-[#A1664F] leading-[1.05] mb-6 drop-shadow-sm">
+            <h1
+              style={{ textShadow: '0px 0px 2px #E5D5C8' }}
+              className="text-4xl md:text-6xl font-serif text-[#A1664F] leading-[1.05] mb-6 drop-shadow-sm"
+            >
               Nunca mais trave <br />{' '}
-              <span className="italic font-bold">na hora de </span> responder <br />{' '}
-              um cliente no WhatsApp
+              <span className="italic font-bold">na hora de </span> responder{' '}
+              <br /> um cliente no WhatsApp
             </h1>
           </Reveal>
 
           <Reveal delay={500} direction="left">
             <p className="text-md md:text-lg text-gray-900 mb-10 max-w-xl leading-relaxed font-medium">
-              Mensagens prontas, claras e profissionais para você atender com segurança, se posicionar melhor e parar de perder vendas por insegurança ou medo de cobrar.
+              Mensagens prontas, claras e profissionais para você atender com
+              segurança, se posicionar melhor e parar de perder vendas por
+              insegurança ou medo de cobrar.
             </p>
           </Reveal>
 
           <Reveal delay={700} direction="left">
             <div className="flex flex-col sm:flex-row gap-6 items-center md:items-start">
               <a
-                href="#comprar"
+                href="https://payfast.greenn.com.br/8t329wu"
                 className="group animate-[bounce_1s_ease-in-out_infinite] relative bg-[#A1664F] text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-[#8e5a45] transition-all transform hover:scale-105 shadow-2xl shadow-[#A1664F]/40 text-center overflow-hidden"
               >
                 <span className="relative z-10 uppercase">
@@ -87,5 +92,5 @@ export function Hero() {
         }
       `}</style>
     </section>
-  )
+  );
 }

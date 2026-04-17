@@ -25,7 +25,7 @@ function App() {
         <FloatingCTA />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
